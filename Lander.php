@@ -5,25 +5,36 @@
 <input name="full_name" id="full_name" class="form-control" maxlength="40" required placeholder="الاسم الكامل (كما هو مكتوب في بطاقة الهوية)">
 </div>
 <div class="field-block">
-<label class="form-label">Negeri</label>
+<label class="form-label">المحافظة</label>
 <select name="provinsi" id="provinsi" class="form-select" required>
-<option value="">الاسم الكامل</option>
-<option value="Johor">جوهور</option>
-<option value="Kedah">قدح</option>
-<option value="Kelantan">كيلانتان</option>
-<option value="Melaka">ملقا</option>
-<option value="Negeri Sembilan">نيغيري سمبيلان</option>
-<option value="Pahang">باهانج</option>
-<option value="Pulau Pinang">بينانج</option>
-<option value="Perak">بيراك</option>
-<option value="Perlis">برليس</option>
-<option value="Selangor">سيلانجور</option>
-<option value="Terengganu">ترينجانو</option>
-<option value="Sabah">صباح</option>
-<option value="Sarawak">سراواك</option>
-<option value="Wilayah Persekutuan Kuala Lumpur">إقليم كوالالمبور الفيدرالي</option>
-<option value="Wilayah Persekutuan Putrajaya">إقليم بوتراجايا الفيدرالي</option>
-<option value="Wilayah Persekutuan Labuan">إقليم لابوان الفيدرالي</option>
+<option value="">اختر المحافظة</option>
+<option value="Cairo">القاهرة</option>
+<option value="Giza">الجيزة</option>
+<option value="Alexandria">الإسكندرية</option>
+<option value="Dakahlia">الدقهلية (المنصورة)</option>
+<option value="Sharqia">الشرقية (الزقازيق)</option>
+<option value="Gharbia">الغربية (طنطا)</option>
+<option value="Qalyubia">القليوبية</option>
+<option value="Monufia">المنوفية</option>
+<option value="Beheira">البحيرة</option>
+<option value="Kafr El Sheikh">كفر الشيخ</option>
+<option value="Damietta">دمياط</option>
+<option value="Port Said">بورسعيد</option>
+<option value="Ismailia">الإسماعيلية</option>
+<option value="Suez">السويس</option>
+<option value="Faiyum">الفيوم</option>
+<option value="Beni Suef">بني سويف</option>
+<option value="Minya">المنيا</option>
+<option value="Asyut">أسيوط</option>
+<option value="Sohag">سوهاج</option>
+<option value="Qena">قنا</option>
+<option value="Luxor">الأقصر</option>
+<option value="Aswan">أسوان</option>
+<option value="Red Sea">البحر الأحمر (الغردقة)</option>
+<option value="South Sinai">جنوب سيناء (شرم الشيخ)</option>
+<option value="North Sinai">شمال سيناء</option>
+<option value="Matrouh">مطروح</option>
+<option value="New Valley">الوادي الجديد</option>
 </select>
 </div>
 <div class="field-block">
