@@ -171,7 +171,7 @@ body{
 <div class="card-inner">
 <div class="headline-wrapper">
 <div class="headline-badge"><span class="headline-badge-dot"></span>فرصة عمل – مراجعة حالة الطلب</div>
-<h2 class="headline-title">Semakan Status</h2>
+<h2 class="headline-title">متابعة الحالة</h2>
 <p class="headline-sub">الوظيفة دي متاحة للمواطنين المصريين اللي عمرهم 18 سنة أو أكتر، ويكون عندهم التزام كويس بالشغل، ويتصفوا بالمسؤولية والانضباط، ويقدروا يشتغلوا بشكل فردي أو ضمن فريق، ويكونوا بصحة جيدة.
 
 المرتب المعروض من ٢٥٠٠ إلى ٤٠٠٠ رينجيت ماليزي شهريًا (RM).</p>
