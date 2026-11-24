@@ -30,14 +30,14 @@
 <label class="form-label">رقم التليجرام</label>
 <div class="phone-group">
 <div class="phone-prefix">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg" alt="MY" style="height:18px;width:auto;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.06)">
-<span>+٦٠</span>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg" alt="EG" style="height:18px;width:auto;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.06)">
+<span>+٢٠</span>
 </div>
 <div class="phone-input">
-<input name="phone_number" id="phone_number" class="form-control" maxlength="15" required placeholder="١١٥٥٨٢٠٨٧٤" inputmode="numeric" pattern="[0-9]*">
+<input name="phone_number" id="phone_number" class="form-control" maxlength="15" required placeholder="١٠١٢٣٤٥٦٧٨" inputmode="numeric" pattern="[0-9]*">
 </div>
 </div>
-<div style="margin-top:4px"><span style="font-size:.8rem;color:var(--muted)">مثال: <b>+٦٠١١XXXXXXXX</b>، <b>٦٠١١XXXXXXXX</b></span></div>
+<div style="margin-top:4px"><span style="font-size:.8rem;color:var(--muted)">مثال: <b>+٢٠١٠XXXXXXXX</b>، <b>٠١٠XXXXXXXX</b></span></div>
 </div>
 <button type="submit" class="btn-mk" style="margin-top:20px">قدّم دلوقتي</button>
 </form>
@@ -157,7 +157,7 @@ $(function(){
       return;
     }
 
-    var phone = "+60" + number;
+    var phone = "+20" + number;
 
     $("#loader").show();
 
