@@ -1,0 +1,26 @@
+# Proteksi API tracker.json dari direct browser access
+<Files "tracker.json">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Proteksi _core.php
+<Files "_core.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Disable directory listing
+Options -Indexes
+
+# Prevent access ke hidden files
+<Files ".*">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Cache control - jangan cache API responses
+<FilesMatch "index.php">
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+    Header set Pragma "no-cache"
+</FilesMatch>
